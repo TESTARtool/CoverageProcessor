@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CoveragePercentageViewer.exe" version="1.0.0.14" publicKeyToken="2e4982c5b10dbedf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CoveragePercentageViewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CoveragePercentageViewer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CoveragePercentageViewer.exe" size="86464">
+      <assemblyIdentity name="CoveragePercentageViewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9ETgt+Cu4F+ALsk70Mkn2JOb2Gay4RmuM7/N1lqSDuU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MathNet.Numerics.dll" size="1689600">
+      <assemblyIdentity name="MathNet.Numerics" version="4.15.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OVh0jOQKKC0w/tSwb4yPYsR29IITTjTZJ+y3tIsM2os=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Meta.Numerics.dll" size="448512">
+      <assemblyIdentity name="Meta.Numerics" version="4.1.4.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zLsJMwRMQY8ozO3R14Y+8WcBtk1TEMMyW+cEVtbEMCs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CoveragePercentageViewer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZADKINE\0102027" issuerKeyHash="46241f4b3610e6291ba86b0f36af52f7e4276847" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PeAunMHgltP/pImmZOYFawe6DRxE9pRidk8M/+lfhBc=</DigestValue></Reference></SignedInfo><SignatureValue>WMI35CFk3mpb+IEwsdY3w2CYHyTX69vYOGqGNolnhAhD4C/TUjo/FQlSE0ABG+lQkLkDHTWVlJa+6oiIC0alAiU3hshDZGnP03BZpeuh4Sgu14t7EmkGkZO/rL2ndn5lBSzwcmK8Qv04caLsSB8AS5B21HA3Fy7Q1wt564xXMEE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7qb3RuZzoZc8fV6sDqnrOUh54yTvGSBum9pljcuRUF8SN4N9r4axY6vxW1izGpBNWegVF2/7JATKQ9fv+dvS7J7slHYvWhoBzDJVE6ldpfii0bzAt2+/BdafnGDVdZsDC+Xqd/vcmYKepYS+hi4nqo+7tmbftKvHJ0/I6ny0ZnU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="17845fe9ff0c4f766294f6441c0dba076b05e664a689a4ffd396e0c19c2ee03d" Description="" Url=""><as:assemblyIdentity name="CoveragePercentageViewer.exe" version="1.0.0.14" publicKeyToken="2e4982c5b10dbedf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZADKINE\0102027</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wUevBTHErfCxtmo6ldhcZlLCgSPsntmYp6Ay74hxJw4=</DigestValue></Reference></SignedInfo><SignatureValue>V2y5GqIZmBsjvO4WnEwXKUOcjTM50XFGHyW13V8VH72TvrXposLoUh9n1Uhz/qpDvjH2wiMTNXzuAMHwRwlHnayvnbF8JEXtj3kcBZtw2jbKoSqcB7Mut4Vqc8l8cTb1cVuzauXZteyI0Hz3LeIqp9MTHpKzaURjzQ1+EcN1vrs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7qb3RuZzoZc8fV6sDqnrOUh54yTvGSBum9pljcuRUF8SN4N9r4axY6vxW1izGpBNWegVF2/7JATKQ9fv+dvS7J7slHYvWhoBzDJVE6ldpfii0bzAt2+/BdafnGDVdZsDC+Xqd/vcmYKepYS+hi4nqo+7tmbftKvHJ0/I6ny0ZnU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQQKhuHojYFr1G24NpOD7OGjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AWgBBAEQASwBJAE4ARQBcADAAMQAwADIAMAAyADcwHhcNMjAwOTI4MjExMTUyWhcNMjEwOTI5MDMxMTUyWjApMScwJQYDVQQDHh4AWgBBAEQASwBJAE4ARQBcADAAMQAwADIAMAAyADcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO6m90bmc6GXPH1erA6p6zlIeeMk7xkgbpvaZY3LkVBfEjeDfa+GsWOr8VtYsxqQTVnoFRdv+yQEykPX7/nb0uye7JR2L1oaAcwyVROpXaX4otG8wLdvvwXWn5xg1XWbAwvl6nf73JmCnqWEvoYuJ6qPu7Zm37SrxydPyOp8tGZ1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAw4M3izueEDcZStkCRK8lOM6VIeP2gxkgu0rDes2jN9Pn5L0gaSeEpb2qmSMa+1j6oUeitutzcCBQnFCmg0AcZu/6JOxK+fDcsTG6xqPrjtl6+aX3o31INwdxXgkVrWddDmwrHp7jlreqIB/K16UXiagUerDnRAZ8fUfE3MVXRCQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,13 @@
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CoveragePercentageViewer.exe.config
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CoveragePercentageViewer.exe.manifest
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CoveragePercentageViewer.application
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CoveragePercentageViewer.exe
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Release\CoveragePercentageViewer.pdb
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.CoveragePercentageViewer.resources
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.Properties.Resources.resources
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.csproj.GenerateResource.cache
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.csproj.CoreCompileInputs.cache
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.exe.manifest
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.application
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.exe
+C:\Users\0102027\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\CoveragePercentageViewer.pdb

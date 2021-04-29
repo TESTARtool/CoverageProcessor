@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CoverageCollectorApp.Chart" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAASAACAAAACAAACgAAICAAAAAEAAAIAAAAAAAQA=</HashCode>
+      <FileName>Chart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageCollectorApp.CoverageCollector" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2zcWOaEa4XBzoAQwaWz20AFqDrRKa8icYlyvlZDs8o8=</HashCode>
+      <FileName>CoverageCollector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageCollectorApp.Program" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageCollectorApp.SaveGraphs" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SaveGraphs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageCollectorApp.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageCollectorApp.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WelchTTest" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASAiAAAAAAAAAAAAABAAAAAAQAAAAgAABABA=</HashCode>
+      <FileName>WelchTTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageCollectorApp.BoxPlotChart" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>BoxPlotChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

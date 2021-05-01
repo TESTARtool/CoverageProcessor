@@ -3,6 +3,7 @@
 Short user instruction of the Code Cover Collector (CCC).
 
 [Git Project URL](https://github.com/TESTARtool/CoverageProcessor)
+
 [TESTAR Website](https://testar.org/)
 
 ## Introduction and purpose
